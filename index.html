@@ -1,79 +1,107 @@
-<div class="navbar-header">
+<!-- this is a small change. -- JCB --> 
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<style>
+  .container {
+    background-color:lightgray;
+    margin-top:30px;
+    padding-bottom:30px;
+   }
+</style>
+<title>Bootstrap Practice</title>
+
+</head>
+
+<body>
+  
+   <div class="navbar navbar-inverse navbar-extra">
+        <div class="container">
+          <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand narrow-display" href="https://leetcode.com/">LeetCode OJ</a>
+            <a class="navbar-brand narrow-display">Navbar 1</a>
           </div>
           <div class="navbar-collapse collapse">
-            <a class="navbar-brand" href="https://leetcode.com/">LeetCode OJ</a>
             <ul class="nav navbar-nav">
               
               <li id="subscribe">
-                <a href="https://leetcode.com/subscribe/"><font color="orange">LeetCode Premium Subscription</font></a>
               </li>
               
               <li class="dropdown">
-                <a href="https://leetcode.com/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                  Problems
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  OL1
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   
-                  <li><a href="https://leetcode.com/problemset/algorithms/">Algorithms</a></li>
+                  <li>OL1: Item 1</li>
                   
-                  <li><a href="https://leetcode.com/problemset/database/">Database</a></li>
+                  <li>OL1: Item 2</li>
                   
-                  <li><a href="https://leetcode.com/problemset/shell/">Shell</a></li>
+                  <li>OL1: Item 3</li>
                   
                 </ul>
               </li>
-              <li id="pickNav"><a onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;pick-one&#39;, &#39;click&#39;);" href="https://leetcode.com/problems/pascals-triangle">Pick One</a></li>
+              <li id="pickNav"><a>OL 2</a></li>
               
                 <li class="dropdown">
-                  <a href="https://leetcode.com/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                    Mock
+                  <a class="dropdown-toggle" data-toggle="dropdown"
+                     role="button" aria-expanded="false">
+                    OL3
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="https://leetcode.com/mockinterview/">Mock Interview</a>
+                      <a>OL3: Item 1</a>
                     </li>
                     <li>
-                      <a href="https://leetcode.com/mockinterview/session/list/">Past Sessions</a>
+                      <a>OL3: Item 2</a>
                     </li>
                   </ul>
                 </li>
 
               
-              <li id="articlesNav"><a href="https://leetcode.com/articles/">Articles</a></li>
+              <li id="articlesNav"><a>OL4</a></li>
               <!-- TODO: not hard code -->
               
-              <li id=""><a href="https://leetcode.com/discuss/">Discuss</a></li>
+              <li id=""><a>OL5</a></li>
               
               
-              <li id="bookNav"><a onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;book&#39;, &#39;click&#39;, &#39;nav-bar&#39;);" href="https://leetcode.com/book/"><font color="#ed9c28">Book</font></a></li>
-              
-              
-              
-                
-              
-              
+              <li id="bookNav"><a>OL6</a></li>
             </ul>
-            
-            <div class="navbar-form navbar-right">
-              <a class="btn btn-primary" href="https://leetcode.com/accounts/signup">Sign up</a>
-              <a class="btn btn-default" href="https://leetcode.com/accounts/login/">Sign in</a>
-            </div>
-            
-            <!--
-            <form class="navbar-form pull-right">
-              <input class="col-md-2" type="text" placeholder="Email">
-              <input class="col-md-2" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
-            </form>
-            -->
+
           </div><!--/.navbar-collapse -->
         </div>
       </div>
+
+<div class="container">
+  <h1>Bootstrap Practice</h1>
+  <p>Time for another mini project. Have a cup of coffee and let's continue...</p>
+  <img src="images/coffee.gif" class="img-rounded img-responsive"/>
+ 
+  <p><div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" taype="button" data-toggle="dropdown">
+      Bootstrap Dependencies 
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Bootstrap CSS file</a></li>
+      <li><a href="#">Bootstrap JS file</a></li>
+      <li><a href="#">Needs JQuery!</a></li>
+    </ul>
+  </div></p>
+</div>
+   
+</body>
+
+</html>
+
